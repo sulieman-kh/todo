@@ -21,7 +21,6 @@ body {
   flex-direction: column;
 }
 .cta {
-  max-width: 55rem;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -76,7 +75,7 @@ form button {
 }
 
 .task {
-  max-width: 34rem;
+  width: 34rem;
   max-height: 6rem;
   display: flex;
   justify-content: space-between;
@@ -94,6 +93,7 @@ form button {
   flex: 1;
   padding-left: 1rem;
 }
+
 .task li.checked {
   text-decoration: line-through;
 }
