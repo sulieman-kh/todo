@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@450"
+    />
+
+    <title>to-do list</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <p class="title">to do list</p>
+    <div class="cta">
+      <form class="todo__form">
+        <input
+          class="todo__input"
+          type="text"
+          placeholder="what do you want to do?"
+        />
+        <button id="add" type="submit ">Add</button>
+      </form>
+
+      <div id="box-tasks">
+        <ul class="list-tasks">
+          <!-- <div class="task" id="1">
+            <label class="check-btn"
+              ><input type="checkbox" /><span class="checkbox"></span>
+              <li class="task-item">fff</li>
+            </label>
+            <button class="edit-btn">📝</button
+            ><button class="delete-btn">❌</button>
+          </div> -->
+        </ul>
+        <div id="footer">
+          <div class="item__left">
+            <!-- <span>0 items left</span> -->
+          </div>
+          <div class="filters">
+            <span id="all" class="selected">All</span>
+            <span id="active">Active</span>
+            <span id="completed">Completed</span>
+          </div>
+          <button id="clear-btn">Clear completed</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
